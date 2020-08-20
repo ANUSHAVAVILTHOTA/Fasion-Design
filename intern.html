@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.footer {
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #2af9f0;
+   color: white;
+   text-align: center;
+   padding-top:50px;
+   padding-bottom:50px;
+}
+.line { 
+              
+   /* Increase this as per requirement */ 
+    padding-bottom: 10px; 
+    border-bottom-style: groove;
+    border-color:black; 
+    border-bottom-width: 1.1px; 
+    width: -moz-fit-content; 
+} 
+
+.btn{
+  background-color:  #f0f4f0 ; /* Green */
+  border: 1px solid  #adbead ;
+  color:#bbbfbb;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+
+  margin-left: -1px;
+}
+
+
+.active, .btn:hover{
+  background-color: #09670c;
+  color: white;
+}
+.button1 {
+  background-color:  #f0f4f0 ; /* Green */
+  border: 1px solid  #adbead ;
+  color:#bbbfbb;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+.active1, .button1:hover{
+  background-color: #2af9f0;
+  color: black;
+}  
+.button2 {
+  background-color:  #f0f4f0 ; /* Green */
+  border: 1px solid  #adbead ;
+  color:#bbbfbb;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius:5px;
+  
+}
+.active2, .button2:hover{
+  background-color: #09670c;
+  color: white;
+}  
+</style>
+</head>
+<body>
+<h3 style="color:#09670c;" class="line">Casual Shirt</h3>
+
+
+
+<!--<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+	  <button class="button active"  id= "first-button" style="background-color: #09670c;color: white;">Collar</button>
+	  <button class="button">Cuffs</button>
+	  <button class="button">Back</button>
+	  <button class="button">Front</button>
+      <button class="button" id="last-button">Pocket</button>
+    </div>
+  </div>
+</div>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+	 </center><div class="btn-group btn-group-lg ml-2 mr-2" role="group" aria-label="Basic example">
+	  <button type="button" class="btn btn-secondary active">Collar</button>
+	  <button type="button" class="btn btn-secondary">Cuff</button>
+	  <button type="button" class="btn btn-secondary">Back</button>
+	  <button type="button" class="btn btn-secondary">Front</button>
+	  <button type="button" class="btn btn-secondary">Pocket</button>
+	</div><center>
+    </div>
+    <div class="col-sm-6">
+     
+    </div>
+  </div>
+</div><br>
+
+
+<div class="container mt-0">
+  <div class="row"></br>
+    <div class="col-sm-6 mt-2">
+       <img src="final.gif" class="img-rounded" alt="Cinque Terre" width="70%" height="30%"> 
+
+    </div>
+    <div class="col-sm-6">
+      <img src="img.png" class="img-rounded" alt="Cinque Terre" width="50%" height="30%"> 
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+	<center>
+	</br>
+	  <button class="button1" style="margin-right: 16px;" >Back</button>
+          <button class="button1 active1" >Next</button>
+	</center>
+    </div>
+    <div class="col-sm-6">
+     
+    </div>
+  </div>
+</div><br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+	<center>
+          <button class="button2 active2" >Measurements</button>
+	</center>
+    </div>
+    <div class="col-sm-6">
+     
+    </div>
+  </div>
+</div><br>
+
+<h3 style="color:#09670c;" class="line">Customization Summary</h3>
+
+ <div class = "form-group">
+            <textarea class = "form-control" rows = "3" placeholder = "Customization Summary:"></textarea>
+         </div>
+          <button class="button1 active1" >Post</button>
+<br><br>
+<div class="footer">
+  <p style="color:black;"><b>Fotter</b></p>
+
+</div>
+
+</body>
+</html> 
+
